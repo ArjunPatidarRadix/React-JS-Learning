@@ -1,0 +1,1659 @@
+{"message":"connect ECONNREFUSED 127.0.0.1:27017 connect ECONNREFUSED 127.0.0.1:27017","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":9},"level":"error","stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at Function.Model.$wrapCallback (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\model.js:4898:32)\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4420:21\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n    at model.Query.exec (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4419:10)\n    at model.Query.Query.then (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4502:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"connect ECONNREFUSED 127.0.0.1:27017 connect ECONNREFUSED 127.0.0.1:27017","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":9},"level":"error","stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at Function.Model.$wrapCallback (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\model.js:4898:32)\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4420:21\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n    at model.Query.exec (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4419:10)\n    at model.Query.Query.then (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\mongoose\\lib\\query.js:4502:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"For testing winston-mongodb For testing winston-mongodb","stack":"Error: For testing winston-mongodb\n    at CustomerDomain.getAllCustomers (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\domain\\customer.domain.js:49:19)\n    at getAllCustomers (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\customers\\customers.js:18:24)\n    at Layer.handle [as handle_request] (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\middleware\\seller.js:7:5)\n    at Layer.handle [as handle_request] (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\middleware\\auth.js:27:13\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\jsonwebtoken\\verify.js:223:12\n    at getSecret (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.module.exports [as verify] (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at module.exports (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\middleware\\auth.js:13:13)\n    at Layer.handle [as handle_request] (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"error","message":"Something failed during startup. Something failed during startup.","stack":"Error: Something failed during startup.\n    at Object.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\index.js:37:7)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\index.js:8:26)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47"}
+{"level":"error","message":"Something failed miserably! Something failed miserably!","stack":"Error: Something failed miserably!\n    at C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\index.js:22:12\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\index.js:21:11)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\index.js:8:26)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"MongoDB connected...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB_tests...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-18-42.055Z-harshil.jpeg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-18-42.055Z-harshil.jpeg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-18-42.055Z-harshil.jpeg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-18-42.055Z-harshil.jpeg'"}
+{"name":"MulterError","message":"Unexpected field Unexpected field","code":"LIMIT_UNEXPECTED_FILE","field":"images[]","storageErrors":[],"level":"error","stack":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:40:19)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at Dicer.Writable.write (internal/streams/writable.js:303:10)"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-21.986Z-harshil.jpeg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-21.986Z-harshil.jpeg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-21.986Z-harshil.jpeg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-21.986Z-harshil.jpeg'"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-40.924Z-kumar.jpeg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-40.924Z-kumar.jpeg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-40.924Z-kumar.jpeg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-31-40.924Z-kumar.jpeg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-26.292Z-ddu-logo.jpg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-26.292Z-ddu-logo.jpg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-26.292Z-ddu-logo.jpg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-26.292Z-ddu-logo.jpg'"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-45.684Z-harshil.jpeg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-45.684Z-harshil.jpeg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-45.684Z-harshil.jpeg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-32-45.684Z-harshil.jpeg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-33-34.881Z-harshil.jpeg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-33-34.881Z-harshil.jpeg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-33-34.881Z-harshil.jpeg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-33-34.881Z-harshil.jpeg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-35-57.954Z-ddu-logo.jpg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-35-57.954Z-ddu-logo.jpg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-35-57.954Z-ddu-logo.jpg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-35-57.954Z-ddu-logo.jpg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-05.686Z-ddu-logo.jpg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-05.686Z-ddu-logo.jpg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-05.686Z-ddu-logo.jpg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-05.686Z-ddu-logo.jpg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-32.799Z-ddu-logo.jpg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-32.799Z-ddu-logo.jpg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-32.799Z-ddu-logo.jpg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-38-32.799Z-ddu-logo.jpg'"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-39-23.942Z-ddu-logo.jpg","storageErrors":[],"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-39-23.942Z-ddu-logo.jpg' ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-39-23.942Z-ddu-logo.jpg'","stack":"Error: ENOENT: no such file or directory, open 'C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\uploads\\2021-06-04T10-39-23.942Z-ddu-logo.jpg'"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"storageErrors":[],"level":"error","message":"Only .png, .jpg and .jpeg format allowed! Only .png, .jpg and .jpeg format allowed!","stack":"Error: Only .png, .jpg and .jpeg format allowed!\n    at fileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\controllers\\products\\products.js:29:15)\n    at wrappedFileFilter (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:315:20)\n    at Busboy.emit (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:315:20)\n    at HeaderParser.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:315:20)\n    at HeaderParser._finish (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at HeaderParser.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\HeaderParser.js:46:19)\n    at Dicer._oninfo (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:197:25)\n    at SBMH.<anonymous> (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:127:10)\n    at SBMH.emit (events.js:315:20)\n    at SBMH._sbmh_feed (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:188:10)\n    at SBMH.push (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\streamsearch\\lib\\sbmh.js:56:14)\n    at Dicer._write (C:\\Nihar\\Radixweb\\NodeJs\\Myntra\\node_modules\\dicer\\lib\\Dicer.js:109:17)\n    at writeOrBuffer (internal/streams/writable.js:358:12)"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port undefined...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}
+{"message":"App listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/MyntraDB...","level":"info"}

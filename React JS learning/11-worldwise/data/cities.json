@@ -1,0 +1,100 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Milmarcos",
+      "country": "Spain",
+      "date": "2024-01-12T08:58:13.346Z",
+      "emoji": "🇪🇸",
+      "notes": "this",
+      "position": {
+        "lat": 41.11246878918088,
+        "lng": -1.9116210937500002
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Camprovin",
+      "country": "Spain",
+      "date": "2024-01-12T08:58:22.711Z",
+      "emoji": "🇪🇸",
+      "notes": "asd",
+      "position": {
+        "lat": 42.374778361114195,
+        "lng": -2.7246093750000004
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Luna",
+      "country": "Spain",
+      "date": "2024-01-12T08:59:42.078Z",
+      "emoji": "🇪🇸",
+      "notes": "new city by me",
+      "position": {
+        "lat": 42.114523952464275,
+        "lng": -0.9228515625000001
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Bonnes",
+      "country": "France",
+      "date": "2024-01-12T11:29:06.293Z",
+      "emoji": "🇫🇷",
+      "notes": "asdasd",
+      "position": {
+        "lat": 46.604167162931844,
+        "lng": 0.5932617187500001
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Ambenay",
+      "country": "France",
+      "date": "2024-01-12T11:29:14.625Z",
+      "emoji": "🇫🇷",
+      "notes": "asd",
+      "position": {
+        "lat": 48.850258199721495,
+        "lng": 0.7250976562500001
+      },
+      "id": 98443204
+    }
+  ]
+}

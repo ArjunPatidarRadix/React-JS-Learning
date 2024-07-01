@@ -1,0 +1,17 @@
+import { useEffect, useState } from "react";
+
+export function useLocalStorageState<IWatchedMovie>(
+  initialState: IWatchedMovie[],
+  key: string
+): [IWatchedMovie[], (value: IWatchedMovie[]) => void] {
+  const [value, setValue] = useState<IWatchedMovie[]>(() => {
+    const storedValue = localStorage.getItem(key);
+    return storedValue ? JSON.parse(storedValue) : initialState;
+  });
+
+  useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [value, key]);
+
+  return [value, setValue];
+}
